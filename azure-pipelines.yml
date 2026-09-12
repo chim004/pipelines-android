@@ -9,7 +9,7 @@ pool:
 steps:
 - task: JavaToolInstaller@0
   inputs:
-   versionSpec: '19'
+   versionSpec: '17'
    jdkArchitectureOption: 'x64'
    jdkSourceOption: 'PreInstalled'
 
@@ -19,7 +19,7 @@ steps:
     gradleWrapperFile: 'gradlew'
     gradleOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
-    jdkVersionOption: '1.19'
+    jdkVersionOption: '1.17'
     jdkArchitectureOption: 'x64'
     publishJUnitResults: true
     testResultsFiles: '**/TEST-*.xml'
