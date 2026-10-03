@@ -13,7 +13,7 @@ steps:
    jdkArchitectureOption: 'x64'
    jdkSourceOption: 'PreInstalled'
 
-- task: Gradle@4
+- task: Gradle@2
   inputs:
     workingDirectory: ''
     gradleWrapperFile: 'gradlew'
